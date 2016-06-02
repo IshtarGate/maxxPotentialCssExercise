@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sam's Page</title>
+    <!--<link href="css.css" style="text/css"-->
+    <style>
+        @font-face{
+            font-family:"HelveticaNeueBold";
+            src: url("helveticaneue/Helvetica Neu Bold.ttf") format("truetype");
+        }
+        @font-face{
+            font-family:"HelveticaNeueLight";
+            src: url("helveticaneue/HelveticaNeue Light.ttf") format("truetype");
+        }
+        @font-face{
+            font-family:"Baskerville Italic";
+            src: url("helveticaneue/Baskerville Light Italic font.ttf") format("truetype");
+        }
+
+
+        body{
+            margin: 0;
+        }
+
+        p {
+            font-family: "HelveticaNeueLight",Arial, serif;
+            font-size: 18pt;
+        }
+
+        div{
+            /*border: 1px black solid;*/
+        }
+
+        h1{
+            font-family: "HelveticaNeueBold",/*Arial,*/ serif;
+            font-size: 28pt;
+            font-weight: bold;
+            color: #3D3D3D;
+        }
+
+        h2{
+            font-family: "HelveticaNeueLight", serif;
+            font-size: 28pt;
+            color: #3D3D3D;
+        }
+        img{border: 0;}
+
+        .link-Red{
+            color: #bb1f25;
+            font-family: "Baskerville Italic", Arial, serif;
+            text-decoration: none;
+        }
+
+        .blue-line-thin{
+            width:100%;
+            height: 2px;
+            background-color: #0d4b6e;
+        }
+
+        .blue-line-thick{
+            width:100%;
+            height: 4px;
+            background-color: #0d4b6e;
+            margin-bottom: 5%;
+        }
+
+        /*
+        Requested Font Sizes (Helvetica not supported on all devices?)
+        Bold 28pt
+        Light 28pt
+        Light 24pt
+        Light 18pt
+        Italic 24pt (Baskerville)
+        */
+    </style>
+
+</head>
+
+<body>
+    <!--header-->
+        <div style="display:flex;height: 200px; width: 80%; margin-left: 10%">
+
+            <!--left box-->
+            <div style="display:flex; height: 200px; width: 50%; align-items: center;  justify-content: flex-start">
+                <img src="Comapny-Logo.png" style="width: 50%;max-height: 150px"><!--max emblem-->
+            </div>
+
+            <!--right box-->
+            <div style="display:flex; height: 200px; align-items: center;  justify-content: flex-end; width: 50%">
+                <div>
+                <h1 style="display: flex; align-items: center; justify-content: center">HELLO, I'M SAM</h1>
+                <h2 style="display: flex; align-items: center">Web Designer</h2>
+                </div>
+            </div>
+
+        </div>
+
+    <!--body-->
+        <!--mountain picture-->
+        <div style="overflow: hidden; height: 300px; display: flex; align-items: center">
+            <img src="hero1.jpg" style=" width: 100%">
+        </div>
+
+        <!--Portfolio Block-->
+        <div style="display: flex; margin-left: 10%; margin-right: 10%; align-items: center; justify-content: center; height: 50px;">
+            <!--center box-->
+                <!--portfolio box-->
+                <div><h1>Portfolio</h1></div>
+        </div>
+        <div style="display: flex; margin-left: 10%; margin-right: 10%; align-items: center; justify-content: center">
+                <!--three boxes-->
+                <!--box1-->
+                <div style="width: 33%;">
+                    <!--top border-->
+                    <div class="blue-line-thin"></div>
+
+                    <!--website name-->
+                    <div style=" display: flex; align-items: center; justify-content: center" >
+                        <p>TECHNOLINE</p>
+
+                    </div>
+
+                    <!--website link-->
+                    <div style=" display: flex; align-items: center; justify-content: center; margin-bottom: 5%">
+                    <a class="link-Red" href="#">technoline.com</a>
+                        </div>
+                    <!--border-->
+                    <div class="blue-line-thick"></div>
+                    <!--whitespace-->
+                    <!--top margin?-->
+                    <!--picture-->
+                    <div style="overflow: hidden; height: 200px; display: flex; align-items: center">
+                        <img src="comany%20photo1.jpg" style=" min-height:100%; max-width: 100%">
+                    </div>
+                </div>
+
+                <!--box2-->
+                <div style="width: 33%; margin-left: 2%; margin-right: 2%">
+                    <!--box1-->
+                    <!--top border-->
+                    <div class="blue-line-thin"></div>                        <!--website name-->
+                    <div style=" display: flex; align-items: center; justify-content: center" >
+                        <p>MAJESTIQUE</p>
+                    </div>
+                    <!--website link-->
+                    <div style=" display: flex; align-items: center; justify-content: center; margin-bottom: 5%">
+                        <a class="link-Red" href="#">majestique.com</a>
+                    </div>
+                    <!--border-->
+                    <div class="blue-line-thick"></div>                        <!--whitespace-->
+                    <!--top margin?-->
+                    <!--picture-->
+                    <div style="overflow: hidden; height: 200px; display: flex; align-items: center">
+                        <img src="comany%20photo2.jpg" style=" min-height:100%; max-width: 100%">
+                    </div>
+                </div>
+
+                <!--box3-->
+                <div style="width: 33%;">
+                    <!--box1-->
+                    <!--top border-->
+                    <div class="blue-line-thin"></div>                        <!--website name-->
+                    <div style=" display: flex; align-items: center; justify-content: center" >
+                    <p>SILVERZIM</p>
+                        </div>
+                    <!--website link-->
+                    <div style=" display: flex; align-items: center; justify-content: center; margin-bottom: 5%">
+                    <a class="link-Red" href="#">silverzim.com</a>
+                    </div>
+                    <!--border-->
+                    <div class="blue-line-thick"></div>                        <!--whitespace-->
+                    <!--top margin?-->
+                    <!--picture-->
+                    <div style="overflow: hidden; height: 200px; display: flex; align-items: center">
+                        <img src="comany%20photo3.jpeg" style=" min-height:100%; max-width: 100%">
+                    </div>
+                </div>
+        </div>
+    <!--body end-->
+
+    <!--footer-->
+    <br>
+    <br>
+
+    <footer >
+        <p style="color: white">(c) 2016 <a style="text-decoration: white; color: white" href="#">Sam's Web Dev</a> All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
