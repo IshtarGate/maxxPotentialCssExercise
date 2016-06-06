@@ -7,7 +7,7 @@
 
 /*my custom content*/
 div{
-    border: 1px black solid;
+    /*border: 1px black solid;*/
 }
 H1{font-family: "HelveticaNeueBold", Arial, serif}
 H3{font-family: Helvetica, Arial, sans-serif}
@@ -87,3 +87,6 @@ H3{font-family: Helvetica, Arial, sans-serif}
     align-items: center;
     justify-content: center;
 }
+
+.pictureBox{overflow: hidden; height: 200px; display: flex; align-items: center}
+.pictureBoxPicture{ min-height:100%; max-width: 100%}
