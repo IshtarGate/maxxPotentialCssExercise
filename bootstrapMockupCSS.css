@@ -1,0 +1,89 @@
+@font-face {font-family: "HelveticaNeueBold";
+    src: url("fonts/helveticaneue/Helvetica Neu Bold.ttf") format("truetype");}
+@font-face {font-family: "HelveticaNeueLight";
+    src: url("fonts/helveticaneue/HelveticaNeue Light.ttf") format("truetype");}
+@font-face {font-family: "BaskervilleItalic";
+    src: url("fonts/libre-baskerville/LibreBaskerville-Italic.ttf") format("truetype");}
+
+/*my custom content*/
+div{
+    border: 1px black solid;
+}
+H1{font-family: "HelveticaNeueBold", Arial, serif}
+H3{font-family: Helvetica, Arial, sans-serif}
+.sampleFlex {
+    display: flex;
+    width: 104%;
+    margin-left: -2%;
+    padding: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.sample{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+}
+.imageCenteredCropped{
+    width: 100px;
+    height: 100px;
+}
+
+.porfolioTitle{
+    font-weight: bold;
+    text-align: center;
+    font-size: 3em;
+    height: 30px;
+    border: 1px black solid;
+    line-height: 30px;
+}
+
+.projectName{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2em;
+}
+.projectLink{
+    display: block;
+    width: 100%;
+    font-style: italic;
+    font-family:BaskervilleItalic,Arial,serif;
+    text-align: center;
+    color: red;
+    height: 5%;
+    font-size: 1.5em;
+}
+.portfolioColumn{
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.blueLineThin{
+    background-color: #0e4c6f;
+    height: 2px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.blueLineThick{
+    background-color: #0e4c6f;
+    height: 4px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+.headerRow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.headerBoxColumn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
